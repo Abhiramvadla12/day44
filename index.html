@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .contianer{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1vw;
+            
+        }
+        img{
+            height: 90vh;
+            width: 45vw;
+            
+            
+        }
+       @media screen and (max-width:430px) {
+            .contianer{
+                display: block;
+            }
+            img{
+                width: 100%;
+            }
+       }
+    </style>
+</head>
+<body>
+    <h1>Tasks on 13-09-24</h1>
+    <div class="contianer">
+        <img src="./pic1.png" alt="image not found" class="one">
+        <img src="./pic2.png" alt="image not found" class="two">
+        <img src="./pic3.png" alt="image not found" class="three">
+        <img src="./pic4.png" alt="image not found" class="four">
+        <img src="./pic5.png" alt="image not found"class="five">
+        <img src="./pic6.png" alt="image not found" class="six">
+        <img src="./pic7.png" alt="image not found" class="seven">
+        <img src="./pic8.png" alt="image not found" class="eight">
+        <img src="./pic9.png" alt="image not found" class="nine">
+        <img src="./pic10.png" alt="image not found" class="ten">
+    </div>
+</body>
+</html>
